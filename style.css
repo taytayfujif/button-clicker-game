@@ -5,6 +5,7 @@ body {
 	color: white;
 	text-align: center;
 }
-button {
-	font-size: 60px;
+#button {
+	width: 100px;
+	height: 100px;
 }
