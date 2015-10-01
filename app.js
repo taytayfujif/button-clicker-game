@@ -8,8 +8,8 @@ var press = function() {
 
 	if (Uscore === 20) {
 		alert("Bonus Button Unlocked!");
-		document.getElementById('bonus').innerHTML = 
-		'<input onclick="bonuspress()" type="image" id="button" src="button.jpg">';
+		timerbutton();
+		setTimeout(removeButton, 4000);
 	}
 
 
@@ -19,7 +19,16 @@ var press = function() {
 	}
 };
 
+var timerbutton = function() {
+	document.getElementById('bonus').innerHTML = 
+		'<input onclick="bonuspress()" type="image" id="button" src="button.jpg">';
+}
+
+var removeButton = function() {
+	document.getElementById('bonus').innerHTML = "";
+}
+
 var bonuspress = function() {
-	Uscore = Uscore + 9;
+	Uscore = Uscore + 10;
 	document.getElementById('score').innerHTML = "Your Score: " + Uscore;
 }
