@@ -15,6 +15,8 @@ Please create the following files:
 ## Requirements
 Create a button clicker game that increments a count on the screen after the user clicks a "button"!
 
+Be as creative as you want! :D
+
 ## Stretch Goals
 Students should be able to complete the basic game.
 
