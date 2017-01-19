@@ -2,7 +2,7 @@ var Uscore = 0;
 
 var highscore = 10;
 
-var press = function() {
+function press() {
 	Uscore++;
 	document.getElementById('score').innerHTML = "Your Score: " + Uscore;
 
