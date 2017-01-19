@@ -9,8 +9,8 @@ Please create the following files:
   + app.js
 
 ## Connect your files
-  + Link your CSS to the HTML with the <link> tag
-  + Link your JS to the HTML with the <script> tag
+  + Link your CSS to the HTML with the **link** tag
+  + Link your JS to the HTML with the **script** tag
 
 ## Requirements
 Create a button clicker game that increments a count on the screen after the user clicks a "button"!
