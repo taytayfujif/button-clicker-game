@@ -1,6 +1,6 @@
 # Basic Button Clicker Game
 
-Create the button clicker game of your dreams! Make it as addictive and as fun as possible! :D
+Basic game to understand the role of functions and variables in JavaScript (Intro) - This code challenge is to show the basics of JavaScript and how to create a button which runs a function. This also includes working with variable manipulation, if conditions, and basic UI. Create the button clicker game of your dreams! Make it as addictive and as fun as possible! :D
 
 ## Set-up your files
 Please create the following files:
